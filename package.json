@@ -1,0 +1,25 @@
+{
+  "name": "sammedcode-platform-template",
+  "version": "1.0.0",
+  "description": "A modern full-stack platform template with monorepo structure",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Run development servers'",
+    "build": "echo 'Build all applications'",
+    "test": "echo 'Run tests'",
+    "lint": "echo 'Lint code'",
+    "format": "echo 'Format code'"
+  },
+  "keywords": [
+    "template",
+    "platform",
+    "monorepo",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

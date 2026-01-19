@@ -1,0 +1,14 @@
+{
+  "name": "@sammedcode/frontend",
+  "version": "1.0.0",
+  "description": "Frontend application for SammedCode Platform",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Start development server'",
+    "build": "echo 'Build for production'",
+    "test": "echo 'Run tests'",
+    "lint": "echo 'Run linter'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
