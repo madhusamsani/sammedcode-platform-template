@@ -4,10 +4,17 @@
   "description": "Backend API for SammedCode Platform",
   "private": true,
   "scripts": {
-    "dev": "echo 'Start development server'",
-    "build": "echo 'Build for production'",
-    "test": "echo 'Run tests'",
-    "lint": "echo 'Run linter'"
+    "dev": "echo 'Start development server. Implement with: nodemon --watch src --exec ts-node src/index.ts | tsx watch src/index.ts'",
+    "build": "echo 'Build for production. Implement with: tsc | tsc --project tsconfig.build.json'",
+    "start": "echo 'Start production server. Implement with: node dist/index.js'",
+    "test": "echo 'Run tests. Implement with: jest | vitest'",
+    "test:watch": "echo 'Run tests in watch mode'",
+    "test:coverage": "echo 'Run tests with coverage'",
+    "test:integration": "echo 'Run integration tests'",
+    "lint": "eslint src --ext .ts,.js",
+    "lint:fix": "eslint src --ext .ts,.js --fix",
+    "format": "prettier --write \"src/**/*.{ts,js,json}\"",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {},
   "devDependencies": {}

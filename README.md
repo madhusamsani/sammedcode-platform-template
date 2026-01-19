@@ -49,6 +49,12 @@ sammedcode-platform-template/
 
 ## 🚀 Getting Started
 
+> **Note**: This is a template repository. The scripts in `package.json` are placeholders that show how to implement them with your chosen framework. You'll need to:
+> 1. Choose your frontend framework (React, Next.js, Vue, etc.)
+> 2. Choose your backend framework (Express, Fastify, NestJS, etc.)
+> 3. Install the necessary dependencies
+> 4. Implement the actual script commands
+
 ### Prerequisites
 
 - Node.js (v18 or higher)
